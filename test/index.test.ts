@@ -28,3 +28,10 @@ test("Stringify Test", () => {
   cookiesString = stringifyCookies(cookiesMap);
   expect(cookiesString).toBe("test=value");
 });
+
+test("Update Test", () => {
+  let cookiesMap = parseCookies("test=value;name=spider-cookies");
+  cookiesMap.set("test", "new_value");
+  const cookiesString = stringifyCookies(cookiesMap);
+  expect(cookiesString).toBe("test=new_value; name=spider-cookies");
+});

@@ -1,5 +1,4 @@
 export function parseCookies(cookies: string) {
-  cookies = cookies.trimLeft();
   const cookiesMap = new Map<string, string>();
   const cookieList = cookies.split(";");
   cookieList.forEach((cookie) => {
