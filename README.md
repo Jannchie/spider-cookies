@@ -1,6 +1,6 @@
 # SPIDER-COOKIES
 
-[![Coverage Status](https://coveralls.io/repos/github/Jannchie/spider-cookies/badge.svg?branch=main)](https://coveralls.io/github/Jannchie/spider-cookies?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/Jannchie/spider-cookies/badge.svg?branch=main)](https://coveralls.io/github/Jannchie/spider-cookies?branch=main) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Jannchie/spider-cookies.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Jannchie/spider-cookies/context:javascript)
 
 ## Summary
 
