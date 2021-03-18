@@ -7,6 +7,9 @@
   "author": "Jannchie <jannchie@gmail.com>",
   "license": "MIT",
   "typings": "typings",
+  "scripts": {
+    "coverage": "jest --coverage; cat ./coverage/lcov.info | coveralls"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.21",
     "coveralls": "^3.1.0",
