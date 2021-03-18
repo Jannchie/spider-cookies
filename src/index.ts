@@ -3,7 +3,8 @@ export function parseCookies(cookies: string) {
   const cookieList = cookies.split(";");
   cookieList.forEach((cookie) => {
     const kv = cookie.split("=");
-    cookiesMap.set(kv[0].trim(), kv[1]);
+    const k = kv[0].trim();
+    if (k !== "") cookiesMap.set(k, kv[1]);
   });
   return cookiesMap;
 }
