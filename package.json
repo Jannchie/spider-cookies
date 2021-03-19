@@ -1,6 +1,6 @@
 {
   "name": "spider-cookies",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parse and stringify cookies for web spider.",
   "main": "lib/index.js",
   "repository": "https://github.com/Jannchie/spider-cookies",
